@@ -25,7 +25,7 @@ public class DataCollector : MonoBehaviour
     public string Version = "GameVersion";
     public KeyCode triggerKey = KeyCode.None; // CHANGE THE KEYCODE TO MAKE IT WORK <=====================================================
 
-    const string url = "Demander moi URL";
+    const string url = "https://games.raccoonlabs.fr/Eartsup/datacollect.php";
 
     [Header("Data")]
     //Those lists will be stored in an excel file
